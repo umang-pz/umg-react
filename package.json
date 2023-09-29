@@ -1,10 +1,17 @@
 {
-  "name": "umg-react",
+  "name": "@umang-pz/umg-react",
   "version": "1.0.0",
+  "private": "false",
   "description": "Component library for react and typescript",
-  "main": "src/index.tsx",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "vite build && tsc"
   },
   "author": "Umang Joshi",
@@ -18,5 +25,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "@umang-pz:registry": "https://npm.pkg.github.com"
   }
 }
