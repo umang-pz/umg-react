@@ -1,6 +1,6 @@
 {
   "name": "@umang-pz/umg-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": "false",
   "description": "Component library for react and typescript",
   "main": "dist/index.umd.js",
